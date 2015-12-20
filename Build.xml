@@ -7,9 +7,7 @@ destdir="C:\Users\Safi\git\JenkinsCheck\Stagging"></javac>
 </target>
 
 <target name="run" depends="compile">
-<java classname="Demo" >
-<classpath path="C:\Users\Safi\git\JenkinsCheck\Stagging"></classpath>
-</java>
+
 </target>
 
 </project>
