@@ -2,12 +2,14 @@
 <project name="Jenkins Runs Ant"  default="run">
 
 <target name="compile">
-<javac includeantruntime="false" srcdir="C:\Users\Safi\git\JenkinsCheck\src\git_hub" 
+<javac includeantruntime="false" srcdir="C:\Users\Safi\git\JenkinsCheck\src" 
 destdir="C:\Users\Safi\git\JenkinsCheck\Stagging"></javac>
 </target>
 
 <target name="run" depends="compile">
-
+<java classname="Demo">
+<classpath path="Stagging"/>
+</java>
 </target>
 
 </project>
